@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <h1>El Heroe</h1>
+    <div class="container">
+        <div class="caption">
+            <u><h2>BMI Calculator</h2></u>
+        </div>
+        <div class="weightkg">
+            <label for="inputweight" class="labels">Weight in KG's</label>
+            <br>
+            <input type="text" class="inputs" value="123" name="inputweight" id="weight">
+        </div>
+        <br>
+        <div class="heightcm">
+            <label for="inputheight" class="labels">Height in CM's</label>
+            <br>
+            <input type="text" class="inputs" value="123" name="inputheight" id="height">
+        </div>
+        <br>
+        <div class="buttons">
+            <button onclick="bmicalculate()">submit</button>
+            <button onclick="reload()">Clear</button>
+        </div>
+
+        <div class="headings">
+            <u>
+                <h3 id="heading"></h3>
+                <p id="BMI-output"></p>
+                <p id="message"></p>
+            </u>
+        </div>
+    </div>
+</body>
+</html>
