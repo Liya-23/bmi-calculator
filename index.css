@@ -2,7 +2,7 @@ body{
     background: linear-gradient(#e66465, #9198e5);
     background-repeat: no-repeat;
     background-position: cover;
-    width: 100%;
+    width: 100%; 
     background-attachment: fixed;
     align-items: center;  
     text-align: center;
