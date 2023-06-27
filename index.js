@@ -1,7 +1,7 @@
-function bmicalculate() {
+ function bmicalculate() {
     let weight = document.getElementById("weight").value
     let height = document.getElementById("height").value
-
+  
     let bmi = (weight/(height*height)*703)
     document.getElementById('heading').innerHTML = "Your BMI is: "  
     document.getElementById('BMI-output').innerHTML = bmi.toFixed(1)
